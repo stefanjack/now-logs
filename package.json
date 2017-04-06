@@ -13,13 +13,15 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node bin/logs.js secret-key"
   },
-  "author": "Tal Bereznitskey <berzniz@gmail.com> (http://berzniz.com/)",
+  "author": "Tal Bereznitskey <berzniz@gmail.com> (http://berzniz.com/) and Stefan Jack <stefanjack@icloud.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.15.2",
     "intercept-stdout": "^0.1.2",
-    "socket.io-client": "^1.7.2",
-    "yargs": "^6.5.0"
+    "socket.io-client": "^1.7.3",
+    "yargs": "^6.6.0"
   }
 }

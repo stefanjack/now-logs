@@ -41,8 +41,12 @@ socket.on('connect', function() {
 socket.on('message', function(data) {
     try {
         console.log(data && data.replace && data.replace('\n', ''));
+		var logged=data && data.replace && data.replace('\n', '');
+		logtxt(logged);
     }
     catch (err) {
         console.error(err);
     }
 });
+
+var logtxt=require("./logtxt.js");
