@@ -1,3 +1,20 @@
+# How to use
+
+1.Clone or download this git
+
+2.Edit your package.json :
+```
+"scripts": {
+    "test": "node index.js",
+    "start": "node bin/logs.js secret-key"
+ }
+```
+3.Host it on now!
+
+4.Open https://your-url/logs to view logs!
+
+# vvv original README.md vvv
+
 # now-logs
 Stream your now.sh logs to your terminal
 https://logs.now.sh
