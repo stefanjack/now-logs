@@ -1,6 +1,7 @@
 # How to use
 
 1.Clone or download this git
+
 2.Edit your package.json :
 ```
 "scripts": {
@@ -9,6 +10,7 @@
  }
 ```
 3.Host it on now!
+
 4.Open https://your-url/logs to view logs!
 
 # vvv original README.md vvv
